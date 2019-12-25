@@ -30,3 +30,17 @@ console.log(func05 ('John'))
 var func06 = () => `My name is XXX and no XXX year old. because Im hard code`
 console.log(func06 ())
 
+let courses = ["Adroid", "Java", "PHP"];
+
+console.log(
+  courses.map(course => {
+    return course.toUpperCase();
+  })
+)
+
+let courses2 = [1,0,6,4,5];
+
+courses2.sort(
+  (x,y) => x > y ? true : false
+)
+console.log(courses2)
